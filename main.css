@@ -47,7 +47,6 @@ h4 { font-size: 1.6em; margin-bottom: 0.8em; }
 h5 { font-size: 1.2em; margin-bottom: 0.8em; }
 h6 { font-size: 1em; margin-bottom: 0.8em; }
 
-a, a:link, a:visited, a:hover, a:active { text-decoration: none; }
 a img { border: none; text-decoration: none; }
 
 img { border: none; text-decoration: none; }
@@ -243,6 +242,10 @@ body {
 	margin: 0 auto;
 }
 
+a {
+	color: #fdf6f6;
+}
+
 a[name="home"] {
 	position: absolute;
 	top: 0;
@@ -287,7 +290,6 @@ a[name="home"] {
 }
 
 #main-menu a {
-	color: #fdf6f6;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -297,11 +299,6 @@ a[name="home"] {
 	text-shadow: 3px 3px #721616;
 }
 
-
-a {
-	color: #fdf6f6;
-	text-decoration: none;
-}
 
 .title {
 	margin: 10px 0 0 0;
@@ -356,6 +353,7 @@ a {
 }
 
 .txt-title {
+	margin-top: 0.2em;
 	flex: none;
 	color: #FFF;
 	font-size: 42px;
@@ -490,6 +488,17 @@ a {
 	margin: 0 !important;
 	padding: 0 !important;
 	background: none !important;
+}
+
+.halal {
+	height: 1em;
+	vertical-align: sub;
+}
+
+.copyrights {
+	margin: auto;
+	width: 980px;
+	border-top: 2px solid #fff;
 }
 .slider-wrap { /* layout of slider and buttons */
 	width: 100%;
