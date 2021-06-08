@@ -345,6 +345,9 @@ a[name="home"] {
 	flex-flow: column;
 	margin: 0 10px;
 }
+.column:first-child {
+	min-width: 300px;
+}
 
 .column .section {
 	flex: none;
@@ -394,7 +397,7 @@ a[name="home"] {
 	letter-spacing: 3px;
 	font-family: 'Pt Sans Narrow', sans-serif;
 	font-style: normal;
-	margin-top: -1px;
+	margin-top: 10px;
 	margin-bottom: -5px;
 }
 .txt ul td > p {
@@ -402,6 +405,10 @@ a[name="home"] {
 	color: #999;
 	margin-top: 8px;
 	margin-bottom: 2px;
+}
+.txt ul td > p.note {
+	color: #fdf6f6;
+	margin: 15px -10px 0 -15px;
 }
 .txt ul li {
 	margin: 10px 15px 5px 5px;
@@ -499,6 +506,20 @@ a[name="home"] {
 	margin: auto;
 	width: 980px;
 	border-top: 2px solid #fff;
+}
+@media only screen and (max-width: 480px) {
+	#wrapper {
+		width: 100%;
+		margin: auto;
+		padding-top: 110px;
+	}
+
+	.index-blocks,
+	.menudiv,
+	.gallerydiv,
+	.contactdiv {
+		flex-direction: column;
+	}
 }
 .slider-wrap { /* layout of slider and buttons */
 	width: 100%;
