@@ -468,7 +468,7 @@ a[name="home"] {
 	flex-flow: row wrap;
 }
 .contactdiv .column {
-	flex: 33.33333%;
+	flex: 1;
 	margin: 0;
 }
 .contactdiv .section {
@@ -486,15 +486,6 @@ a[name="home"] {
 	min-width: 50%;
 	margin-left: 10px;
 	margin-right: 10px;
-}
-
-#div-myrestau {
-	padding: 10px 10px 15px 15px;
-}
-#div-myrestau > div {
-	margin: 0 !important;
-	padding: 0 !important;
-	background: none !important;
 }
 
 .halal {
